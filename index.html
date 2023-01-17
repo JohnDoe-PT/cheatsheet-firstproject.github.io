@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <h1>Color CSS Data Type</h1>
+    <h2>Color Definitions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Definition</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Named Color</td>
+                <td class="code"><span class="color">color:</span> keyword;</td>
+                <td>Using a keyword (such as red or blue). All existing keywords represent plain, solid colors without transparency.</td>
+            </tr>
+            <tr>
+                <td>RGB()</td>
+                <td class="code"><span class="color">color:</span> rgb();</td>
+                <td>The rgb() functional notation expresses a color according to its red, green, and blue components.</td>
+            </tr>
+            <tr>
+                <td>HSL()</td>
+                <td class="code"><span class="color">color:</span> hsl();</td>
+                <td>The hsl() functional notation expresses an sRGB color according to its hue, saturation, and lightness components.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Color Attributes</h2>
+    <div id="title">
+        <h3>Named Color</h3>
+        <h3>RGB ()</h3>
+        <h3>HSL ()</h3>
+    </div>
+    <div id="sample">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Syntax</th>
+                        <th>Sample</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> red;</td>
+                        <td class="backred"></td>
+                    </tr>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> green;</td>
+                        <td class="backgreen"></td>
+                    </tr>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> blue;</td>
+                        <td class="backblue"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Syntax</th>
+                        <th>Sample</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> rgb(255 0 0);</td>
+                        <td class="backred"></td>
+                    </tr>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> rgb(0 128 0);</td>
+                        <td class="backgreen"></td>
+                    </tr>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> rgb(0 0 255);</td>
+                        <td class="backblue"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Syntax</th>
+                        <th>Sample</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> hsl(0 100% 50%);</td>
+                        <td class="backred"></td>
+                    </tr>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> hsl(120 100% 50%);</td>
+                        <td class="backgreen"></td>
+                    </tr>
+                    <tr>
+                        <td class="code"><span class="color">color:</span> hsl(240 100% 50%);</td>
+                        <td class="backblue"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="aside">
+        <h2>Alpha Value</h2>
+        <p>The value of an alpha-value is given as either a number or a percentage and can be used in rgb and hsl making
+            their Syntax become rgba() and hsla().</p>
+        <p>If given as a number, the useful range is 0 (fully transparent) to 1.0 (fully opaque), with decimal values in
+            between; that is, 0.5 indicates that half of the foreground color is used and half of the background color is
+            used. Values outside the range of 0 to 1 are permitted, but are clamped to lie within the range 0 to 1.</p>
+        <p>If the alpha value is given as a percentage, 0% corresponds to fully transparent while 100% indicates fully
+            opaque.</p>
+    </div>
+</body>
+</html>

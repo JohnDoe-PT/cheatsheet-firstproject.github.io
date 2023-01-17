@@ -1,0 +1,86 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorchid;
+}
+
+table {
+    border: 2px solid deeppink;
+}
+
+th {
+    text-align: center;
+    border: 1px solid deeppink;
+    font-size: 18px;
+    background-color: darksalmon;
+}
+
+td {
+    text-align: left;
+    border: 1px solid deeppink;
+    font-size: 15px;
+    background-color: salmon;
+}
+
+p {
+    text-align: justify;
+}
+
+.color {
+    color: pink;
+}
+
+.code {
+    background-color: lightslategray;
+}
+
+.backred {
+    background-color: red;
+}
+
+.backgreen {
+    background-color: green;
+}
+
+.backblue {
+    background-color: blue;
+}
+
+#title {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sample {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 150px;
+}
+
+#aside {
+    margin-top: 50px;
+}
